@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="big5"?>
+<Metastore>
+  <idxOpMetas>
+    <Index_Operator Index_Operator_Name="class com.hp.hplc.expr.knnj.KnnLookup" bMetaAvailable="true" numOfInputRecord="0" sizeOfInputRecord="33" seleOfPrePro="1.0" sizeOfValueAfterPrePro="33" numOfIndexes="1" post_productivity="0.0" post_avgsize="0">
+      <index_stat index_ID="0" numOfIndexKeyPerRecord="1" sizeOfIndexKey="0" sizeOfIndexValue="0" cardinalityOfIndexKey="1" avg_indexlookup_time="0.0" cache_hit_rate="0.0" />
+    </Index_Operator>
+  </idxOpMetas>
+  <idxMetas>
+    <index index_name="Useless">
+      <index_input_key_class>org.apache.hadoop.io.Text</index_input_key_class>
+      <index_output_value_class>org.apache.hadoop.io.Text</index_output_value_class>
+    </index>
+  </idxMetas>
+  <mrMetas>
+    <user_mapreduce user_mr_name="org.apache.hadoop.mapred.lib.IdentityReducer" user_mr_productivity="0.0" user_mr_avgsize="0" />
+    <user_mapreduce user_mr_name="com.hp.hplc.expr.knnj.KnnJoin$Map" user_mr_productivity="0.0" user_mr_avgsize="0" />
+  </mrMetas>
+</Metastore>
+

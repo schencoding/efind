@@ -1,0 +1,4 @@
+mvn -DproxySet=true -DproxyHost=myproxy.com -DproxyPort=3128
+
+
+mvn -DproxySet=true -DproxyHost=web-proxy.hpl.hp.com -DproxyPort=8080 install 

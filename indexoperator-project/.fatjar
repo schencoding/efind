@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Aug 30 00:02:00 CST 2012
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=jar/KnnJoin.jar
+manifest.mergeall=true
+manifest.mainclass=com.hp.hplc.expr.knnj.KnnJoin
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

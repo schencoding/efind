@@ -1,0 +1,4 @@
+drop keyspace INDEX_performance;
+create keyspace INDEX_performance;
+use INDEX_performance;
+create column family HASH;

@@ -1,0 +1,1 @@
+export ANT_OPTS="-Dhttp.proxyHost=web-proxy.hpl.hp.com -Dhttp.proxyPort=8080"
