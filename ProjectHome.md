@@ -1,0 +1,8 @@
+Both industry and academia have seen fast growing demand for
+processing ``big data''.  MapReduce is one of the most widely used programming paradigms for this purpose.  A wide range of big data  analysis operations today require selective access to indices or  indexed data sources, e.g., inverted indices, spatial indices, large knowledge bases, and external data sources that provide web service interfaces.  Unfortunately, MapReduce takes a scan centric approach to accessing input data with very limited support for index operations, making it difficult for developers to use indices and achieve good
+> performance.
+
+This paper proposes EFind, an \emph{\underline{E}}fficient and
+\emph{\underline{F}}lexible \emph{\underline{ind}}ex solution in
+MapReduce.  EFind defines a flexible index operator interface. Indices can be easily integrated at various points in the MapReduce data flow. Developers can conveniently employ different types of indices, and customize the pre-processing before and the post-processing after an index lookup.  Given an index enhanced job, EFind consider a number of optimization strategies, including caching, index locality, and cost-aware re-partitioning.  It performs cost-based query optimization
+to select the best execution plan based on statistics collected about the indices.  During execution, EFind collects index statistics, and if necessary, performs dynamic re-optimization and chooses a new execution plan.  Our experimental results, using both real-world and synthetic data sets, show that EFind selects execution plans that are optimal or close to optimal, and achieves a factor of 2x--8x improvements compared to an approach that access indices without optimization.
